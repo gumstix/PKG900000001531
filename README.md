@@ -25,6 +25,6 @@ __Links:__
 * [Store Page][store]
 
 [thumbnail]: about:blank
-[autodoc]: PKG900000001400_AutoDoc.pdf
-[spec]: PKG900000001400_SpecSheet.pdf
-[store]: https://store.gumstix.com/cm4-development-board/
+[autodoc]: PKG900000001531_AutoDoc.pdf
+[spec]: PKG900000001531_SpecSheet.pdf
+[store]: https://store.gumstix.com/cm4-pixhawk6-mini/
