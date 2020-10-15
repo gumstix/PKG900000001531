@@ -23,8 +23,11 @@ __Links:__
 * [AutoDoc Datasheet][autodoc]
 * [Specifications][spec]
 * [Store Page][store]
+* [Schematics and Layout][hardware]
 
 [thumbnail]: about:blank
 [autodoc]: PKG900000001531_AutoDoc.pdf
 [spec]: PKG900000001531_SpecSheet.pdf
 [store]: https://store.gumstix.com/cm4-pixhawk6-mini/
+[hardware]: hardware/hardware.md
+[firmware]: firmware/firmware.md
