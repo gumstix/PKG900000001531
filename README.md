@@ -1,11 +1,11 @@
-# Gumstix Raspberry Pi CM4 Pixhawk 6 Mini
+# Gumstix Raspberry Pi CM4 + Pixhawk FMUv6
 ## PKG900000001531 ![][thumbnail]
 
-The **Gumstix Raspberry Pi CM4 Pixhawk 6 Mini** brings together 3 powerful compute devices.  With the Raspberry Pi CM4 module, the Google Coral TPU, and the ST Micro STM32F7 MCU, along with support hardware for MAVs, rovers and other robotics platforms,  designing TensorFlow-assisted autonomous vehicles has never been so accessible.
+The **Gumstix Raspberry Pi CM4 + Pixhawk FMUv6** brings together 3 powerful compute devices.  With the Raspberry Pi CM4 module, the Google Coral TPU, and the ST Micro STM32F7 MCU, along with support hardware for MAVs, rovers and other robotics platforms,  designing TensorFlow-assisted autonomous vehicles has never been so accessible.
 
-The *CM4 Pixhawk 6 Mini* is one of the first boards conforming to Pixhawk's v6 specification for Flight Management Units (FMUs), including on-board sensor bank, standard Pixhawk data and power connectors, octal PWM outputs, and firmware support.
+The *CM4 + Pixhawk FMUv6* is one of the first boards conforming to Pixhawk's v6 specification for Flight Management Units (FMUs), including on-board sensor bank, standard Pixhawk data and power connectors, octal PWM outputs, and firmware support.
 
-The *CM4 Pixhawk 6 Mini* features single-connection programming and debugging.  Power the PCB, flash the CM4's MMC, program the FMU's frimware, or monitor their serial consoles from the same USB Type-C connection.
+The *CM4 + Pixhawk FMUv6* features single-connection programming and debugging.  Power the PCB, flash the CM4's MMC, program the FMU's frimware, or monitor their serial consoles from the same USB Type-C connection.
 
 __Features Include__:
 * Raspberry Pi CM4 connector
