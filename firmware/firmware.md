@@ -1,15 +1,5 @@
 # Firmware
 
-__Custom Gumstix Yocto images for Rasberry Pi CM3__:
+__Custom Gumstix Ubuntu Server 20.04 images for Rasberry Pi CM4__:
 
-* [Developer Console Image][console]
-* [LXQT Desktop Image][lxqt]
-
-__Geppetto AutoBSP__:
-* [AutoBSP ZIP archive][autobsp]
-* [Device Tree Source][dts]
-
-[console]: https://catalina.gumstix.com/binaries/download/rpi_cm3_yocto_dunfell_console
-[lxqt]: https://catalina.gumstix.com/binaries/download/rpi_cm3_yocto_dunfell_lxqt
-[autobsp]: PKG900000001531_autobsp.zip
-[dts]: PKG900000001531_overlay.dts
+* [Ubuntu Server 20.04](https://gumstix-ubuntu.s3-us-west-2.amazonaws.com/2020-10-18/raspberrypi-cm4/rosbuntu_cm4_i2.img.gz)
