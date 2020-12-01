@@ -17099,6 +17099,65 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="20.32" y1="5.08" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="TS3A5223">
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.4064" layer="94"/>
+<text x="2.54" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC1" x="-12.7" y="5.08" length="short"/>
+<pin name="NO1" x="-12.7" y="2.54" length="short"/>
+<pin name="NO2" x="-12.7" y="-5.08" length="short"/>
+<pin name="NC2" x="-12.7" y="-2.54" length="short"/>
+<pin name="SEL2" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="SEL1" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="10.16" length="short" direction="pwr" rot="R270"/>
+<pin name="COM1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="COM2" x="12.7" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="REVISION_HISTORY_4">
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="160.02" y2="0" width="0.254" layer="94"/>
+<wire x1="160.02" y1="0" x2="175.26" y2="0" width="0.254" layer="94"/>
+<wire x1="175.26" y1="0" x2="190.5" y2="0" width="0.254" layer="94"/>
+<wire x1="190.5" y1="0" x2="190.5" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-10.16" x2="190.5" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-15.24" x2="175.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="175.26" y1="-15.24" x2="160.02" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="160.02" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="190.5" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="175.26" y1="0" x2="175.26" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="160.02" y1="0" x2="160.02" y2="-15.24" width="0.254" layer="94"/>
+<text x="83.82" y="-5.08" size="2.54" layer="94" align="center">REVISION HISTORY</text>
+<text x="5.08" y="-12.7" size="1.778" layer="94" align="center">REV</text>
+<text x="83.82" y="-12.7" size="1.778" layer="94" align="center">DESCRIPTION</text>
+<text x="167.64" y="-12.7" size="1.778" layer="94" align="center">DATE</text>
+<text x="182.88" y="-12.7" size="1.778" layer="94" align="center">ENG</text>
+<wire x1="0" y1="-15.24" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-20.32" x2="190.5" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-20.32" x2="190.5" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-20.32" x2="190.5" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-25.4" x2="0" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="0" y1="-30.48" x2="190.5" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-30.48" x2="190.5" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-30.48" x2="190.5" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="190.5" y1="-35.56" x2="175.26" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="175.26" y1="-35.56" x2="160.02" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="160.02" y1="-35.56" x2="10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-35.56" x2="0" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="0" y1="-35.56" x2="0" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="160.02" y1="-15.24" x2="160.02" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="175.26" y1="-15.24" x2="175.26" y2="-35.56" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A3-L-GUMSTIX">
@@ -17457,7 +17516,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17468,7 +17527,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17479,7 +17538,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17490,7 +17549,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17501,7 +17560,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17512,7 +17571,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17523,7 +17582,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17534,7 +17593,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 </technology>
 </technologies>
 </device>
@@ -17696,12 +17755,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Unavailable" constant="no"/>
-<attribute name="DESCRIPTION" value=" USB Controller USB 2.0, OTG ULPI Interface 32-QFN (5x5) " constant="no"/>
-<attribute name="MF" value="Microchip" constant="no"/>
-<attribute name="MP" value="USB3300-EZK-TR" constant="no"/>
-<attribute name="PACKAGE" value="QFN-32 Microchip" constant="no"/>
-<attribute name="PRICE" value="None" constant="no"/>
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" USB Controller USB 2.0, OTG ULPI Interface 32-QFN (5x5) "/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MP" value="USB3300-EZK-TR"/>
+<attribute name="PACKAGE" value="QFN-32 Microchip"/>
+<attribute name="PRICE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -18788,12 +18847,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" DF40 Series 100 Position Dual Row 0.4 mm Pitch Surface Mount Vertical Receptacle " constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="H11615CT-ND" constant="no"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.ca/product-detail/en/hirose-electric-co-ltd/DF40C-100DS-0.4V_51_/H11615CT-ND/1969495?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" constant="no"/>
-<attribute name="MF" value="Hirose" constant="no"/>
-<attribute name="MP" value="DF40C-100DS-0.4V_51_" constant="no"/>
-<attribute name="PACKAGE" value="None" constant="no"/>
+<attribute name="DESCRIPTION" value=" DF40 Series 100 Position Dual Row 0.4 mm Pitch Surface Mount Vertical Receptacle "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="H11615CT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.ca/product-detail/en/hirose-electric-co-ltd/DF40C-100DS-0.4V_51_/H11615CT-ND/1969495?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Hirose"/>
+<attribute name="MP" value="DF40C-100DS-0.4V_51_"/>
+<attribute name="PACKAGE" value="None"/>
 </technology>
 </technologies>
 </device>
@@ -19440,13 +19499,13 @@ power supply such as Analog and RF applications.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=608431" constant="no"/>
-<attribute name="DESCRIPTION" value=" 1/1 Transceiver Half CANbus 8-HVSON (3x3) " constant="no"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="568-15202-1-ND" constant="no"/>
-<attribute name="MF" value="NXP USA" constant="no"/>
-<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=608431" constant="no"/>
-<attribute name="MP" value="TJA1051TK/3/1J" constant="no"/>
-<attribute name="PACKAGE" value="VDFN-8 NXP Semiconductors" constant="no"/>
+<attribute name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=608431"/>
+<attribute name="DESCRIPTION" value=" 1/1 Transceiver Half CANbus 8-HVSON (3x3) "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="568-15202-1-ND"/>
+<attribute name="MF" value="NXP USA"/>
+<attribute name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=608431"/>
+<attribute name="MP" value="TJA1051TK/3/1J"/>
+<attribute name="PACKAGE" value="VDFN-8 NXP Semiconductors"/>
 </technology>
 </technologies>
 </device>
@@ -19856,7 +19915,7 @@ Enable
 <technology name="">
 <attribute name="BOARD" value="PCB900000000XXXv1" constant="no"/>
 <attribute name="TITLE" value="BoardName" constant="no"/>
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 <attribute name="YEAR" value="2018" constant="no"/>
 </technology>
 </technologies>
@@ -19866,7 +19925,7 @@ Enable
 <technology name="">
 <attribute name="BOARD" value="PCB900000000XXXv1" constant="no"/>
 <attribute name="TITLE" value="BoardName" constant="no"/>
-<attribute name="VALUE" value="DNP" constant="no"/>
+<attribute name="VALUE" value="DNP"/>
 <attribute name="YEAR" value="2016" constant="no"/>
 </technology>
 </technologies>
@@ -19911,6 +19970,47 @@ Enable
 <attribute name="TITLE" value="Boardname" constant="no"/>
 <attribute name="VALUE" value="DNP" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TS3A5223">
+<description>&lt;b&gt;TS3A5223&lt;/b&gt;&lt;br&gt;
+0.45Ω Dual SPDT Bidirectional Analog Switch&lt;br&gt;
+Package: &lt;b&gt;UQFN-10&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ts3a5223.pdf"&gt;http://www.ti.com/lit/ds/symlink/ts3a5223.pdf&lt;/a&gt;</description>
+<gates>
+<gate name="G1" symbol="TS3A5223" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UQFN-10">
+<connects>
+<connect gate="G1" pin="COM1" pad="3"/>
+<connect gate="G1" pin="COM2" pad="9"/>
+<connect gate="G1" pin="GND" pad="6"/>
+<connect gate="G1" pin="NC1" pad="5"/>
+<connect gate="G1" pin="NC2" pad="7"/>
+<connect gate="G1" pin="NO1" pad="2"/>
+<connect gate="G1" pin="NO2" pad="10"/>
+<connect gate="G1" pin="SEL1" pad="4"/>
+<connect gate="G1" pin="SEL2" pad="8"/>
+<connect gate="G1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION_HISTORY_4">
+<gates>
+<gate name="G$1" symbol="REVISION_HISTORY_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -20801,7 +20901,7 @@ chip</description>
 <attribute name="DY" value="8.200"/>
 <attribute name="SHEETNO" value="9"/>
 </part>
-<part name="U4" library="qualified_1" deviceset="EVQ" device="KMT0" value="EVQ"/>
+<part name="S3" library="qualified_1" deviceset="EVQ" device="KMT0" value="EVQ"/>
 <part name="R14" library="qualified_1" deviceset="R" device="0402" value="0R"/>
 <part name="R24" library="qualified_1" deviceset="R" device="0201" value="240R0">
 <attribute name="DM" value="0"/>
@@ -21039,7 +21139,7 @@ chip</description>
 <part name="U15" library="qualified_1" deviceset="BMI088" device="" value="BMI088"/>
 <part name="U$37" library="qualified_1" deviceset="A3-L-GUMSTIX" device=""/>
 <part name="U100" library="qualified_1" deviceset="STM32H753II" device=""/>
-<part name="R77" library="qualified_1" deviceset="R" device="0201" value="DNP"/>
+<part name="R77" library="qualified_1" deviceset="R" device="0201" value="10K 1%"/>
 <part name="SUPPLY275" library="qualified_1" deviceset="GND" device=""/>
 <part name="R86" library="qualified_1" deviceset="R" device="0201" value="DNP"/>
 <part name="R87" library="qualified_1" deviceset="R" device="0201" value="DNP"/>
@@ -21652,16 +21752,28 @@ chip</description>
 <part name="FD7" library="qualified_1" deviceset="FIDUCIAL" device="" value="DNP"/>
 <part name="FD8" library="qualified_1" deviceset="FIDUCIAL" device="" value="DNP"/>
 <part name="U$2" library="qualified_1" deviceset="GEPPETTO_LABEL" device="_SMALL" value="DNP">
-<attribute name="BOARD" value="PCB900000001531v1"/>
-<attribute name="TITLE" value="CM4 + Pixhawk FMUv6"/>
+<attribute name="BOARD" value="PCB900000001531v2"/>
+<attribute name="TITLE" value="RPi CM4 + Pixhawk FMUv6"/>
 <attribute name="YEAR" value="2020"/>
 </part>
+<part name="R13" library="qualified_1" deviceset="R" device="0201" value="10K 1%"/>
+<part name="R46" library="qualified_1" deviceset="R" device="0201" value="DNP"/>
+<part name="SUPPLY1" library="qualified_1" deviceset="GND" device=""/>
+<part name="R47" library="qualified_1" deviceset="R" device="0201" value="10K 1%"/>
+<part name="R52" library="qualified_1" deviceset="R" device="0201" value="0R"/>
+<part name="R54" library="qualified_1" deviceset="R" device="0201" value="0R"/>
+<part name="U30" library="qualified_1" deviceset="TS3A5223" device=""/>
+<part name="SUPPLY2" library="qualified_1" deviceset="GND" device=""/>
+<part name="R55" library="qualified_1" deviceset="R" device="0201" value="10K 1%"/>
+<part name="R56" library="qualified_1" deviceset="R" device="0201" value="10K 1%"/>
+<part name="SUPPLY4" library="qualified_1" deviceset="GND" device=""/>
+<part name="U$3" library="qualified_1" deviceset="REVISION_HISTORY_4" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="25.4" y="228.6" size="12.7" layer="91">Table of Contents</text>
-<text x="332.74" y="19.05" size="2.54" layer="91">CM4 + Pixhawk FMUv6</text>
+<text x="332.74" y="19.05" size="2.54" layer="91">RPi CM4 + Pixhawk FMUv6</text>
 <text x="25.4" y="195.58" size="5.08" layer="91">2) STM32H753 </text>
 <text x="25.4" y="187.96" size="5.08" layer="91">3) ST Micro STM32H753IIT6  (1) </text>
 <text x="25.4" y="180.34" size="5.08" layer="91">4) ST Micro STM32H753IIT6  (1) </text>
@@ -21683,16 +21795,24 @@ chip</description>
 <text x="25.4" y="58.42" size="5.08" layer="91">20) Octal Servo </text>
 <text x="25.4" y="50.8" size="5.08" layer="91">21) RPi CSI Vertical Connector </text>
 <text x="25.4" y="43.18" size="5.08" layer="91">22) RPi CSI Vertical Connector </text>
-<text x="25.4" y="35.56" size="5.08" layer="91">23) JST GH 6-pin Vertical Header </text>
-<text x="25.4" y="27.94" size="5.08" layer="91">24) JST GH 6-pin Vertical Header </text>
+<text x="25.4" y="35.56" size="5.08" layer="91">23) JST GH 6-pin (GPS) Header </text>
+<text x="25.4" y="27.94" size="5.08" layer="91">24) JST GH 6-pin (Power) Header </text>
 <text x="213.36" y="195.58" size="5.08" layer="91">25) TI TPS2121 Power Source Muxer </text>
-<text x="213.36" y="187.96" size="5.08" layer="91">26) JST GH Vertical 4-pin Header </text>
-<text x="213.36" y="180.34" size="5.08" layer="91">27) Custom 5-pin Header (JST-GH) </text>
+<text x="213.36" y="187.96" size="5.08" layer="91">26) JST GH 4-pin (CAN) Header </text>
+<text x="213.36" y="180.34" size="5.08" layer="91">27) JST GH 5-pin (RC) Header</text>
 <text x="213.36" y="172.72" size="5.08" layer="91">28) Google Coral G313-06329-00 Accelerator </text>
 <text x="213.36" y="165.1" size="5.08" layer="91">29) NXP TJA1051TK/3 CAN Transceiver </text>
 <text x="213.36" y="157.48" size="5.08" layer="91">30) Pushbutton </text>
 <text x="213.36" y="149.86" size="5.08" layer="91">31) SD Card </text>
 <text x="213.36" y="142.24" size="5.08" layer="91">32) USB 2-Port Switch </text>
+<text x="198.12" y="238.76" size="1.778" layer="94" align="center">1</text>
+<text x="276.86" y="238.76" size="1.778" layer="94" align="center">Initial design - https://geppetto.gumstix.com/#\!/design/8869/</text>
+<text x="360.68" y="238.76" size="1.778" layer="94" align="center">2020-10-17</text>
+<text x="375.92" y="238.76" size="1.778" layer="94" align="center">ACS</text>
+<text x="198.12" y="233.68" size="1.778" layer="94" align="center">2</text>
+<text x="360.68" y="233.68" size="1.778" layer="94" align="center">2020-11-30</text>
+<text x="375.92" y="233.68" size="1.778" layer="94" align="center">ACS</text>
+<text x="276.86" y="233.68" size="1.778" layer="94" align="center">Fixed USB-UART power supply and debug mux.  Populated the BMP388 chip.  Set up BMM150 for I2C.  Added orientation arrow.</text>
 </plain>
 <instances>
 <instance part="TOC" gate="G$1" x="0" y="0"/>
@@ -21705,6 +21825,7 @@ chip</description>
 <instance part="FD7" gate="G$1" x="76.2" y="17.78"/>
 <instance part="FD8" gate="G$1" x="83.82" y="12.7"/>
 <instance part="U$2" gate="G$1" x="33.02" y="15.24"/>
+<instance part="U$3" gate="G$1" x="193.04" y="256.54"/>
 </instances>
 <busses>
 </busses>
@@ -22995,7 +23116,7 @@ chip</description>
 <attribute name="DR" x="52.07" y="115.57" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DM" x="52.07" y="115.57" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="U4" gate="G$1" x="67.31" y="130.81" rot="R270"/>
+<instance part="S3" gate="G$1" x="67.31" y="130.81" rot="R270"/>
 <instance part="R14" gate="G$1" x="26.67" y="201.93" rot="MR0"/>
 <instance part="R24" gate="G$1" x="165.1" y="200.66" rot="MR0">
 <attribute name="SHEETNO" x="165.1" y="200.66" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -23247,11 +23368,11 @@ chip</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="57.15" y1="115.57" x2="80.01" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="80.01" y1="115.57" x2="80.01" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="B'"/>
+<pinref part="S3" gate="G$1" pin="B'"/>
 <wire x1="80.01" y1="130.81" x2="80.01" y2="146.05" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="128.27" x2="74.93" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="128.27" x2="74.93" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="B"/>
+<pinref part="S3" gate="G$1" pin="B"/>
 <wire x1="72.39" y1="130.81" x2="74.93" y2="130.81" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="130.81" x2="80.01" y2="130.81" width="0.1524" layer="91"/>
 <junction x="74.93" y="130.81"/>
@@ -23681,12 +23802,12 @@ chip</description>
 </net>
 <net name="BOOTBUT$1" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="A'"/>
+<pinref part="S3" gate="G$1" pin="A'"/>
 <wire x1="62.23" y1="128.27" x2="59.69" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="128.27" x2="59.69" y2="130.81" width="0.1524" layer="91"/>
 <pinref part="R95" gate="G$1" pin="1"/>
 <wire x1="59.69" y1="130.81" x2="57.15" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="A"/>
+<pinref part="S3" gate="G$1" pin="A"/>
 <wire x1="62.23" y1="130.81" x2="59.69" y2="130.81" width="0.1524" layer="91"/>
 <junction x="59.69" y="130.81"/>
 </segment>
@@ -23765,7 +23886,7 @@ chip</description>
 <label x="105.41" y="133.35" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3V3_SPEKTRUM$1" class="1">
+<net name="3V3_SPEKTRUM" class="1">
 <segment>
 <pinref part="U16" gate="G1" pin="VOUT"/>
 <wire x1="156.21" y1="143.51" x2="168.91" y2="143.51" width="0.1524" layer="91"/>
@@ -23948,17 +24069,6 @@ chip</description>
 <pinref part="R44" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="USART3_TX_DEBUG" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="354.33" y1="219.71" x2="311.15" y2="219.71" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G1" pin="P1"/>
-<wire x1="311.15" y1="219.71" x2="303.53" y2="219.71" width="0.1524" layer="91"/>
-<wire x1="311.15" y1="191.77" x2="311.15" y2="219.71" width="0.1524" layer="91"/>
-<junction x="311.15" y="219.71"/>
-<label x="303.53" y="219.71" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="RX_DEBUG" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
@@ -24026,13 +24136,24 @@ chip</description>
 <label x="303.53" y="204.47" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USART3_RX_DEBUG" class="0">
+<net name="USART3_RX_DEBUG_JST" class="0">
 <segment>
 <wire x1="288.29" y1="217.17" x2="285.75" y2="217.17" width="0.1524" layer="91"/>
 <wire x1="285.75" y1="217.17" x2="285.75" y2="219.71" width="0.1524" layer="91"/>
 <wire x1="285.75" y1="219.71" x2="260.35" y2="219.71" width="0.1524" layer="91"/>
 <label x="260.35" y="219.71" size="1.778" layer="95"/>
 <pinref part="D5" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="USART3_TX_DEBUG_JST" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="354.33" y1="219.71" x2="311.15" y2="219.71" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G1" pin="P1"/>
+<wire x1="311.15" y1="219.71" x2="303.53" y2="219.71" width="0.1524" layer="91"/>
+<wire x1="311.15" y1="191.77" x2="311.15" y2="219.71" width="0.1524" layer="91"/>
+<junction x="311.15" y="219.71"/>
+<label x="303.53" y="219.71" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -24985,6 +25106,10 @@ chip</description>
 <instance part="R107" gate="G$1" x="148.59" y="149.86" rot="R180"/>
 <instance part="R108" gate="G$1" x="129.54" y="162.56" rot="R270"/>
 <instance part="R109" gate="G$1" x="121.92" y="162.56" rot="R270"/>
+<instance part="R13" gate="G$1" x="152.4" y="114.3" rot="R90"/>
+<instance part="R46" gate="G$1" x="193.04" y="106.68" rot="R90"/>
+<instance part="SUPPLY1" gate="GND" x="193.04" y="96.52"/>
+<instance part="R47" gate="G$1" x="193.04" y="142.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -25014,14 +25139,19 @@ chip</description>
 <wire x1="246.38" y1="96.52" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="PS@A1"/>
-<wire x1="223.52" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
-<label x="180.34" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R77" gate="G$1" pin="1"/>
 <pinref part="SUPPLY275" gate="GND" pin="GND"/>
-<wire x1="165.1" y1="109.22" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="104.14" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="109.22" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<junction x="165.1" y="104.14"/>
+</segment>
+<segment>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<pinref part="R46" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="99.06" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI4_DRDY1_BMM150_DRDY" class="0">
@@ -25048,9 +25178,13 @@ chip</description>
 <net name="SDO$1" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SDO@C1"/>
-<wire x1="223.52" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 <label x="180.34" y="127" size="1.778" layer="95"/>
 <pinref part="R86" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="119.38" x2="152.4" y2="127" width="0.1524" layer="91"/>
+<junction x="152.4" y="127"/>
 </segment>
 </net>
 <net name="SDI$1" class="0">
@@ -25074,9 +25208,11 @@ chip</description>
 <pinref part="C53" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="160.02" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
 <junction x="223.52" y="160.02"/>
 <label x="213.36" y="160.02" size="1.778" layer="95"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="147.32" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VDDIO@B2"/>
@@ -25161,6 +25297,17 @@ chip</description>
 <pinref part="R88" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="91.44" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BMM150_PS" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="PS@A1"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="116.84" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="137.16" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<junction x="193.04" y="116.84"/>
 </segment>
 </net>
 </nets>
@@ -26466,24 +26613,27 @@ to enable UFP and PD.</text>
 <instance part="SUPPLY299" gate="GND" x="106.68" y="135.89"/>
 <instance part="SUPPLY300" gate="GND" x="241.3" y="153.67"/>
 <instance part="SUPPLY301" gate="GND" x="264.16" y="163.83"/>
+<instance part="U30" gate="G1" x="121.92" y="66.04"/>
+<instance part="SUPPLY2" gate="GND" x="121.92" y="48.26"/>
+<instance part="R55" gate="G$1" x="154.94" y="55.88" rot="R90"/>
+<instance part="R56" gate="G$1" x="154.94" y="40.64" rot="R90"/>
+<instance part="SUPPLY4" gate="GND" x="154.94" y="30.48"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="USART3_TX_DEBUG" class="0">
 <segment>
-<wire x1="251.46" y1="140.97" x2="284.48" y2="140.97" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="140.97" x2="284.48" y2="133.35" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="133.35" x2="327.66" y2="133.35" width="0.1524" layer="91"/>
-<label x="322.58" y="133.35" size="1.778" layer="95"/>
-<pinref part="IC5" gate="1" pin="RXD"/>
+<pinref part="U30" gate="G1" pin="COM2"/>
+<wire x1="134.62" y1="68.58" x2="170.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="137.16" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USART3_RX_DEBUG" class="0">
 <segment>
-<wire x1="304.8" y1="143.51" x2="327.66" y2="143.51" width="0.1524" layer="91"/>
-<label x="322.58" y="143.51" size="1.778" layer="95"/>
-<pinref part="IC6" gate="A" pin="O"/>
+<pinref part="U30" gate="G1" pin="COM1"/>
+<wire x1="134.62" y1="71.12" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
+<label x="137.16" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="1">
@@ -26542,6 +26692,16 @@ to enable UFP and PD.</text>
 <pinref part="IC6" gate="P" pin="GND"/>
 <pinref part="SUPPLY301" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U30" gate="G1" pin="GND"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="121.92" y1="55.88" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="R56" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="33.02" x2="154.94" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="2.3.3V_VCC_3.3" class="1">
 <segment>
@@ -26566,6 +26726,12 @@ to enable UFP and PD.</text>
 <wire x1="294.64" y1="163.83" x2="271.78" y2="163.83" width="0.1524" layer="91"/>
 <label x="274.32" y="163.83" size="1.778" layer="95"/>
 <pinref part="IC6" gate="A" pin="OE"/>
+</segment>
+<segment>
+<pinref part="U30" gate="G1" pin="VCC"/>
+<wire x1="121.92" y1="76.2" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<label x="76.2" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FTDI_3.3_INT$5" class="1">
@@ -26607,11 +26773,17 @@ to enable UFP and PD.</text>
 <wire x1="121.92" y1="110.49" x2="137.16" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.USB_DEVICE_VBUS" class="1">
+<net name="VBUS_SENSE" class="1">
 <segment>
 <wire x1="60.96" y1="151.13" x2="91.44" y2="151.13" width="0.1524" layer="91"/>
 <label x="63.5" y="151.13" size="1.778" layer="95"/>
 <pinref part="FB4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R55" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="60.96" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="63.5" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
+<label x="154.94" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBUS$5" class="1">
@@ -26634,6 +26806,63 @@ to enable UFP and PD.</text>
 <wire x1="223.52" y1="135.89" x2="218.44" y2="135.89" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="135.89" x2="218.44" y2="143.51" width="0.1524" layer="91"/>
 <junction x="218.44" y="143.51"/>
+</segment>
+</net>
+<net name="USART3_RX_DEBUG_JST" class="0">
+<segment>
+<pinref part="U30" gate="G1" pin="NC1"/>
+<wire x1="109.22" y1="71.12" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<label x="76.2" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USART3_TX_DEBUG_JST" class="0">
+<segment>
+<pinref part="U30" gate="G1" pin="NC2"/>
+<wire x1="109.22" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="76.2" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USART3_TX_DEBUG_FTDI" class="0">
+<segment>
+<pinref part="U30" gate="G1" pin="NO2"/>
+<wire x1="109.22" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="76.2" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="251.46" y1="140.97" x2="284.48" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="140.97" x2="284.48" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="133.35" x2="327.66" y2="133.35" width="0.1524" layer="91"/>
+<label x="322.58" y="133.35" size="1.778" layer="95"/>
+<pinref part="IC5" gate="1" pin="RXD"/>
+</segment>
+</net>
+<net name="UART_MUX_SEL$" class="0">
+<segment>
+<pinref part="U30" gate="G1" pin="SEL1"/>
+<wire x1="134.62" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="63.5" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R55" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="60.96" x2="142.24" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="48.26" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R56" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="45.72" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
+<junction x="154.94" y="48.26"/>
+<pinref part="U30" gate="G1" pin="SEL2"/>
+<wire x1="134.62" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<junction x="142.24" y="60.96"/>
+</segment>
+</net>
+<net name="USART3_RX_DEBUG_FTDI" class="0">
+<segment>
+<wire x1="304.8" y1="143.51" x2="327.66" y2="143.51" width="0.1524" layer="91"/>
+<label x="322.58" y="143.51" size="1.778" layer="95"/>
+<pinref part="IC6" gate="A" pin="O"/>
+</segment>
+<segment>
+<pinref part="U30" gate="G1" pin="NO1"/>
+<wire x1="109.22" y1="68.58" x2="76.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="76.2" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -26850,7 +27079,7 @@ to enable UFP and PD.</text>
 <wire x1="121.92" y1="110.49" x2="137.16" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="6.USB_DEVICE_VBUS" class="1">
+<net name="VBUS_SENSE" class="1">
 <segment>
 <wire x1="60.96" y1="151.13" x2="91.44" y2="151.13" width="0.1524" layer="91"/>
 <label x="63.5" y="151.13" size="1.778" layer="95"/>
@@ -27555,13 +27784,10 @@ to enable UFP and PD.</text>
 <wire x1="213.36" y1="57.15" x2="215.9" y2="57.15" width="0.1524" layer="91"/>
 <label x="215.9" y="57.15" size="1.778" layer="95"/>
 <wire x1="215.9" y1="57.15" x2="238.76" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="52.07" x2="215.9" y2="52.07" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="52.07" x2="215.9" y2="57.15" width="0.1524" layer="91"/>
 <junction x="215.9" y="57.15"/>
 <pinref part="R113" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="44.45" x2="215.9" y2="44.45" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="44.45" x2="215.9" y2="52.07" width="0.1524" layer="91"/>
-<junction x="215.9" y="52.07"/>
+<wire x1="215.9" y1="44.45" x2="215.9" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="7.VLOGIC_VLOGIC" class="1">
@@ -27817,6 +28043,8 @@ to enable UFP and PD.</text>
 <instance part="R2" gate="G$1" x="194.31" y="144.78"/>
 <instance part="R3" gate="G$1" x="186.69" y="139.7"/>
 <instance part="R4" gate="G$1" x="194.31" y="134.62"/>
+<instance part="R52" gate="G$1" x="187.96" y="124.46"/>
+<instance part="R54" gate="G$1" x="187.96" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -27826,8 +28054,18 @@ to enable UFP and PD.</text>
 <net name="GND" class="1">
 </net>
 <net name="7.UART4_4W_RXD" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="116.84" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
+<label x="147.32" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="7.UART4_4W_TXD" class="0">
+<segment>
+<pinref part="R52" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
+<label x="147.32" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART7_RX_TELEM1" class="0">
 </net>
@@ -27838,7 +28076,7 @@ to enable UFP and PD.</text>
 <net name="7.UART4_4W_RTS" class="0">
 <segment>
 <wire x1="181.61" y1="149.86" x2="176.53" y2="149.86" width="0.1524" layer="91"/>
-<label x="161.29" y="149.86" size="1.778" layer="95" rot="MR0"/>
+<label x="146.05" y="149.86" size="1.778" layer="95"/>
 <wire x1="176.53" y1="149.86" x2="146.05" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -27850,7 +28088,7 @@ to enable UFP and PD.</text>
 <net name="7.UART4_4W_CTS" class="0">
 <segment>
 <wire x1="181.61" y1="147.32" x2="179.07" y2="147.32" width="0.1524" layer="91"/>
-<label x="161.29" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<label x="146.05" y="147.32" size="1.778" layer="95"/>
 <wire x1="179.07" y1="147.32" x2="146.05" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="147.32" x2="181.61" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -27861,9 +28099,23 @@ to enable UFP and PD.</text>
 <junction x="179.07" y="147.32"/>
 </segment>
 </net>
-<net name="UART7_RTS_TELEM1" class="0">
+<net name="UART5_RX_TELEM2" class="0">
 <segment>
-<label x="224.79" y="149.86" size="1.778" layer="95"/>
+<pinref part="R52" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="210.82" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART5_TX_TELEM2" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
+<label x="210.82" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UART5_RTS_TELEM2" class="0">
+<segment>
+<label x="209.55" y="149.86" size="1.778" layer="95"/>
 <wire x1="207.01" y1="149.86" x2="242.57" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="207.01" y1="149.86" x2="207.01" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -27875,9 +28127,9 @@ to enable UFP and PD.</text>
 <junction x="204.47" y="139.7"/>
 </segment>
 </net>
-<net name="UART7_CTS_TELEM1" class="0">
+<net name="UART5_CTS_TELEM2" class="0">
 <segment>
-<label x="224.79" y="147.32" size="1.778" layer="95"/>
+<label x="209.55" y="147.32" size="1.778" layer="95"/>
 <wire x1="204.47" y1="147.32" x2="242.57" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="191.77" y1="149.86" x2="201.93" y2="149.86" width="0.1524" layer="91"/>
@@ -28364,7 +28616,7 @@ to enable UFP and PD.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 6-pin Vertical Header </text>
+<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 6-pin (GPS) Header </text>
 </plain>
 <instances>
 <instance part="U$45" gate="G$1" x="0" y="0"/>
@@ -28419,7 +28671,7 @@ to enable UFP and PD.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 6-pin Vertical Header </text>
+<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 6-pin (Power) Header </text>
 </plain>
 <instances>
 <instance part="U$46" gate="G$1" x="0" y="0"/>
@@ -28622,7 +28874,7 @@ to enable UFP and PD.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="332.74" y="19.05" size="2.54" layer="91">JST GH Vertical 4-pin Header </text>
+<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 4-pin (CAN) Header </text>
 </plain>
 <instances>
 <instance part="U$48" gate="G$1" x="0" y="0"/>
@@ -28663,7 +28915,7 @@ to enable UFP and PD.</text>
 </sheet>
 <sheet>
 <plain>
-<text x="332.74" y="19.05" size="2.54" layer="91">Custom 5-pin Header (JST-GH) </text>
+<text x="332.74" y="19.05" size="2.54" layer="91">JST GH 5-pin (RC) Header</text>
 </plain>
 <instances>
 <instance part="U$49" gate="G$1" x="0" y="0"/>
@@ -28714,7 +28966,7 @@ to enable UFP and PD.</text>
 <label x="161.29" y="135.89" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="2.3.3V_VCC_3.3" class="1">
+<net name="3V3_SPEKTRUM" class="1">
 <segment>
 <pinref part="J1" gate="J$1" pin="P$4"/>
 <wire x1="204.47" y1="128.27" x2="158.75" y2="128.27" width="0.1524" layer="91"/>
@@ -29333,10 +29585,15 @@ to enable UFP and PD.</text>
 <nets>
 <net name="GND" class="1">
 <segment>
-<wire x1="172.72" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="132.08" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY359" gate="GND" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="A'"/>
+<wire x1="172.72" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<junction x="170.18" y="132.08"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="P1"/>
@@ -29359,15 +29616,20 @@ to enable UFP and PD.</text>
 </net>
 <net name="BTN_A$22" class="0">
 <segment>
-<wire x1="182.88" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="B'"/>
 <pinref part="D1" gate="G$1" pin="P2"/>
+<wire x1="185.42" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="124.46" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R120" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <junction x="193.04" y="129.54"/>
 <pinref part="R119" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="134.62" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="B"/>
+<wire x1="182.88" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="132.08" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<junction x="185.42" y="129.54"/>
 </segment>
 </net>
 <net name="NRST" class="0">
