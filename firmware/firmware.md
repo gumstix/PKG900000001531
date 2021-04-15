@@ -1,7 +1,16 @@
 # Firmware
 
-__Custom Gumstix Ubuntu Server 20.04 images for Rasberry Pi CM4__:
+__Raspberry Pi OS__:
 
-* [Ubuntu Server 20.04](https://gumstix-ubuntu.s3-us-west-2.amazonaws.com/2020-10-18/raspberrypi-cm4/rosbuntu_cm4_i2.img.gz)
-* Username: ubuntu
+* [Raspberry Pi OS](https://www.raspberrypi.org/software/)
+* Username: pi
 * Password: raspberry
+* Modifications: [config.txt:](config.txt)
+    # pixhawk
+    enable_uart=1
+    dtoverlay=dwc2,dr_mode=host
+    start_x=1
+    gpu_mem=128
+    dtoverlay=uart4,ctsrts
+* Download to /boot folder (first partition) to enable both cameras
+    [dt-blob.bin:](dt-blob.bin)
