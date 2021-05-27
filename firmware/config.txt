@@ -70,3 +70,5 @@ dtoverlay=dwc2,dr_mode=host
 start_x=1
 gpu_mem=128
 dtoverlay=uart4,ctsrts
+dtoverlay=pcie-32bit-dma
+gpio=6,7=op,dh

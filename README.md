@@ -9,7 +9,7 @@ The *CM4 + Pixhawk FMUv6* features single-connection programming and debugging. 
 
 __Features Include__:
 * Raspberry Pi CM4 connector
-* Dual raspberry Pi Camera connectors
+* Dual Raspberry Pi Camera connectors
 * Serial console over USB
 * USB Type-C power delivery
 * STMicro STM32H753 MCU
@@ -17,7 +17,8 @@ __Features Include__:
 * 8 PWM outputs
 * On-board accelerometer, magnetometer and gyroscope
 * On-board barometer
-* Google Coral G313 TPU
+* ASMedia ASM1142 PCIe to USB3.1 controller
+* Google Coral G313 TPU (via USB3)
 
 __Links:__
 * [AutoDoc Datasheet][autodoc]
